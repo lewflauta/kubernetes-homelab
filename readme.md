@@ -7,13 +7,18 @@ A streamlined, GitOps-managed Kubernetes cluster running on bare-metal Raspberry
 ## 🛠 Infrastructure Specifications
 
 ### Hardware
-
+3 Raspberry Pi's 2 in kubernetes cluster, 1 Talos
 | Component | Specification |
 | --- | --- |
 | **Systems** | 2x Raspberry Pi 5 |
 | **CPU** | 4 Cores per system |
 | **RAM** | 8 GB per system |
-| **OS** | Ubuntu Server 24.04 |
+| **OS** | Raspbian OS |
+
+| **Systems** | Raspberry Pi 5 |
+| **CPU** | 4 Cores |
+| **RAM** | 8 GB |
+| **OS** | Talos OS |
 
 ### Software Stack
 
